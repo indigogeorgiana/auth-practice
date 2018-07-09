@@ -341,7 +341,7 @@ Issuing a token is akin to registering for a new account. Once issued, the clien
     <details><summary>Show code for `server/auth/token.js`</summary>
 
     ```js
-    // server/db/users.js
+    // server/auth/token.js
     const jwt = require('jsonwebtoken')
 
     const db = require('../db/users')
